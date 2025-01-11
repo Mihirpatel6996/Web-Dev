@@ -1,0 +1,50 @@
+.container {
+    width: 300px;
+    height: 600px;
+    background-color: rgb(229, 255, 0);
+    margin: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gainsboro;
+    color: beige;
+
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    /* relative to the parent class */
+    top: 100px;
+    left: 150px;
+
+}
+
+.green {
+    background-color: green;
+    position: absolute;
+    /* relative to the whole html code or root */
+    top: 0px;
+    right: 0px;
+
+}
+
+.blue {
+    background-color: blue;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+}
+
+.purple {
+    background-color: purple;
+    position: sticky;
+    bottom: 30px;
+    right: 50px;
+
+    top: 0px;
+
+}
