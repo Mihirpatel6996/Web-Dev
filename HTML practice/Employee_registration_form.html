@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-div {
+
+            width: 800px;
+            margin: auto;
+
+
+        }
+
+        button {
+            font-size: 16px;
+            background-color: #000000;
+            /* Green */
+
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-div">
+        <fieldset>
+
+            <center>
+                <h1> Employee Registration Form </h1>
+            </center>
+
+
+            <hr>
+
+            <label> First Name :</label>
+            <input type="text" placeholder="FirstName" size="10" required> <br><br>
+            <label> Middle Name :</label>
+            <input type="text" placeholder="MiddleName" size="15" required> <br><br>
+            <label> Last Name :</label>
+            <input type="text" placeholder="LastName" size="15" required> <br><br>
+            <!-- palce Holder is used for giving hints -->
+            <!--size is used for textbox and letter size -->
+            <!-- required keyword is used for compulsory to fill that box -->
+
+            <div>
+                <label>
+                    Department
+                </label>
+
+
+                <select>
+
+                    <option value='course'> Department</option>
+                    <option value='BCA'> Management</option>
+                    <option value='BBA'> Human Resource</option>
+                    <option value='B.Tech'> Customer Support</option>
+                    <option value='MBA'> Development</option>
+                    <option value='MCA'> Business</option>
+                    <option value='M.Tech'> Corparate Finance</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label> Gender</label>
+                <input type="radio" value="Male" checked> Male<br>
+
+                <input type="radio" value="Female"> Female <br>
+
+
+            </div>
+
+            <br>
+
+            <label>
+                phone:
+            </label>
+
+            <input type="text " placeholder="+91" size="2">
+            <input type="tel " placeholder="12345-67890" pattern="[0-9]{4}-[0-9]{6}" size="25" required>
+
+
+
+            <br>
+            <br>
+
+            <label>
+                Current Address :
+
+            </label>
+
+            <textarea cols="80" rows="5" placeholder="Current Address" required></textarea><br>
+            <br>
+
+            <label>Drop Your Resume : </label>
+            <input type="file"> <br> <br>
+
+            <label> <b> Email</b></label>
+            <input type="email" placeholder="Enter Email" required>
+            <br>
+            <br>
+
+            <label> <b> Password</b></label>
+            <input type="password" placeholder="Enter Password" required>
+            <br>
+            <br>
+            <label> <b> Re-type Password</b></label>
+            <input type="password" placeholder="Retype Password" required>
+            <br>
+            <br>
+
+            <center><button type="submit"> Register </button></center>
+        </fieldset>
+    </div>
+
+</body>
+
+</html>
