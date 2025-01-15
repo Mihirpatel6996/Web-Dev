@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Button Click Counter</title>
+</head>
+
+<body>
+    <button id="counterButton">Click Me!</button>
+
+    <script>
+
+        function setupClickHandler() {
+                let counter = 0; // Counter variable in the closure
+
+                // Select the button and add an event listener
+                const button = document.getElementById("counterButton");
+                button.addEventListener("click", function () {
+                    console.log("Button clicked", ++counter);
+                });
+            }
+
+            // Setup the handler only once
+            setupClickHandler();
+
+    </script>
+</body>
+
+</html>
